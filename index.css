@@ -1,0 +1,405 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.page {
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+ img
+
+
+body, html {
+    margin: 0 auto;
+    background-color: #f5f2f0;
+}
+
+
+
+.page-title {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    top: 0;
+    left: 0;
+    clip: rect(0,1px,1px,0);
+}
+
+.page .wrapper {
+    margin-right: 6.2%;
+    margin-left: 6.2%;
+}
+.page .wrapper {
+    position: relative;
+    margin-right: 12.4%;
+    margin-left: 12.4%;
+}
+
+
+h1, h2, h3, h4, h5, h6, p {
+    cursor: default;
+    color: #222;
+    font-weight: 400;
+}
+
+a, button, h1, h2, h3, h4, p {
+    font-smooth: always;
+    -webkit-font-smoothing: antialiased;
+}
+
+
+
+h1 {
+    font-size: 51.31569027900696px;
+    
+    line-height: 52px;
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+nav {
+    display: block;
+}
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #ad9ab9;
+    transition: transform .3s ease;
+}
+
+.light {
+    transition: #f8f8f8 .3s ease;
+}
+
+nav .navigation-wrapper {
+    width: calc((93.8vw - 6.2vw));
+    height: 80px;
+}
+
+nav .navigation-wrapper {
+    width: calc((87.6vw - 12.4vw));
+    max-width: 1443.94px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100px;
+    position: relative;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    position: relative;
+}
+
+nav .home {
+    order: 1;
+    text-align: left;
+    width: 100px;
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: transform .3s ease;
+    backface-visibility: hidden;
+}
+nav a {
+    font-size: 14.046639231824416px;
+}
+nav a {
+    
+    font-weight: 500;
+    font-size: 19.802469135802468px;
+    text-transform: uppercase;
+}
+a {
+    text-decoration: none;
+    color: #16120e;
+}
+nav .central {
+    order: 2;
+    text-align: center;
+    margin: 0 auto;
+}
+
+nav .central a {
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+nav .central a {
+    position: relative;
+    cursor: pointer;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+nav .right {
+    order: 3;
+    text-align: right;
+    width: 100px;
+}
+
+.hero {
+    padding-top: 120px;
+    padding-bottom: 40px;
+}
+.hero {
+    width: 100%;
+    padding-top: 140px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero .text {
+    margin-bottom: 120px;
+    width: calc((47.9vw - 6.2vw));
+}
+.hero .text {
+    margin-bottom: 188px;
+    width: calc((47.9vw - 12.4vw));
+    max-width: calc((47.9px - 12.4px) * 19.2);
+}
+
+.hero .text h1 {
+    font-size: 40.54573059082031px;
+    margin-bottom: 12px;
+    line-height: 44px;
+}
+
+
+.dark {
+    transition: color .3s ease;
+}
+
+
+.hero .text p {
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.hero .text p {
+    font-size: 20px;
+    line-height: 36px;
+}
+
+.hero .illustration {
+    z-index: 1;
+}
+.hero .illustration img {
+    margin-right: calc(grid(2,3));  
+    max-width: 490px;
+    float: right;
+    
+}
+
+.projects {
+    position: relative;
+    padding-top: 0;
+    margin-top: -40px;
+}
+.projects .mono {
+    display: none;
+}
+
+.projects .mono {
+    position: relative;
+    line-height: 1;
+    margin-left: -12.4%;
+    transform-origin: 0 0;
+    transform: rotate(
+-90deg
+) translateX(-450px);
+    backface-visibility: hidden;
+    z-index: 1;
+}
+
+.mono {
+    font-size: 14.046639231824416px;
+    font-family: "Apercu Mono Bold Pro";
+    text-transform: uppercase;
+    color: #8c8075;
+}
+
+
+.projects .cards {
+    margin-top: -20px;
+}
+
+.projects .cards {
+    height: 1519.8px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.card {
+    width: calc((47.9vw - 12.4vw));
+    max-width: calc((47.9px - 12.4px) * 19.2);
+    margin-bottom: 80px;
+    cursor: pointer;
+    box-sizing: border-box;
+    position: relative;
+    background-color: #fff;
+    overflow: hidden;
+    backface-visibility: hidden;
+    box-shadow: 0 0 0.1em rgba(61, 37, 2, 0.5);
+    transition-property: box-shadow;
+    transition-duration: 0.3s;
+
+}
+.card:hover {
+    box-shadow: 0 0 1.5em rgba(61, 37, 2, 0.5);
+}
+.card .bottom-description {
+    height: 120px;
+}
+.card .bottom-description {
+    position: absolute;
+    bottom: 10;
+    width: 100%;
+    height: 148px;
+    background-color: #fff;
+    transform-origin: 50% 100%;
+    transition: .3s transform ease;
+}
+
+.card .description {
+    width: 100%;
+    height: 148px;
+    background-color: #fff;
+    backface-visibility: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+
+
+h4 {
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.aparcat .indicator, .linjer .indicator, .manjaras .indicator, .redbull .indicator {
+    position: relative;
+    overflow: hidden;
+    transition: .3s transform ease;
+    top: -1px;
+    width: 16%;
+}
+
+.personal {
+    position: relative;
+}
+
+.personal .box {
+    margin-top: -100px!important;
+    height: calc(100% + 100px)!important;
+}
+.personal .box {
+    height: calc(100% + 140px);
+    margin-top: -140px;
+}
+.personal .social {
+    margin-top: 0;
+}
+.personal .social {
+    position: absolute;
+    line-height: 1;
+    position: relative;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.hobbies {
+    align-content: flex-start;
+    height: 650px;
+    margin-top: 0;
+}
+.hobbies {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 700px;
+    margin-top: 160px;
+}
+
+.hobbies .hobby {
+    width: calc((52.1vw - 6.2vw));
+    max-width: calc((52.1px - 6.2px) * 19.2);
+}
+.hobbies .hobby {
+    width: calc((52.1vw - 12.4vw));
+    max-width: calc((52.1px - 12.4px) * 19.2);
+    flex-direction: column;
+    margin-bottom: 80px;
+}
+.hobbies .hobby {
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    margin-bottom: 120px;
+    width: calc((47.9vw - 12.4vw));
+    max-width: calc((47.9px - 12.4px) * 19.2);
+}
+
+.hobbies .hobby .mono {
+    margin-bottom: 12px;
+}
+.hobbies .hobby .mono {
+    width: 50px;
+    margin-top: 1px;
+    margin-right: 136px;
+}
+
+
+footer {
+    background-color: #ad9ab9;
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 50px;
+    
+  }
