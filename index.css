@@ -9,13 +9,21 @@
     width: 100%;
     max-width: 1920px;
     margin: 0 auto;
+    
+
 }
- img
 
 
-body, html {
+
+body{
     margin: 0 auto;
     background-color: #f5f2f0;
+    background-size: 100px,100% 100%;
+    background: url("assets/wallpapertip_computer-lock-screen-wallpaper_299451.png") no-repeat ;
+    background-attachment: fixed;
+    background-position: right top;
+    background
+    
 }
 
 
@@ -42,7 +50,7 @@ body, html {
 
 h1, h2, h3, h4, h5, h6, p {
     cursor: default;
-    color: #222;
+    color: rgb(218, 205, 205);
     font-weight: 400;
 }
 
@@ -79,12 +87,13 @@ nav {
     z-index: 10;
     width: 100%;
     margin: 0 auto;
-    background-color: #ad9ab9;
+    background-color: #1f082e;
     transition: transform .3s ease;
 }
 
 .light {
     transition: #f8f8f8 .3s ease;
+    
 }
 
 nav .navigation-wrapper {
@@ -125,7 +134,7 @@ nav a {
 }
 a {
     text-decoration: none;
-    color: #16120e;
+    color: #886a4c;
 }
 nav .central {
     order: 2;
@@ -157,16 +166,18 @@ nav .right {
 }
 .hero {
     width: 100%;
-    padding-top: 140px;
+    padding-top: 370px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    
 }
 
 .hero .text {
     margin-bottom: 120px;
     width: calc((47.9vw - 6.2vw));
+    
 }
 .hero .text {
     margin-bottom: 188px;
@@ -203,13 +214,15 @@ nav .right {
     margin-right: calc(grid(2,3));  
     max-width: 490px;
     float: right;
+    border-radius: 20%;
+
     
 }
 
 .projects {
     position: relative;
     padding-top: 0;
-    margin-top: -40px;
+    margin-top: 80px;
 }
 .projects .mono {
     display: none;
@@ -231,7 +244,10 @@ nav .right {
     font-size: 14.046639231824416px;
     font-family: "Apercu Mono Bold Pro";
     text-transform: uppercase;
-    color: #8c8075;
+    color: #f38aad;
+    
+    font-size: larger;
+
 }
 
 
@@ -240,7 +256,7 @@ nav .right {
 }
 
 .projects .cards {
-    height: 1519.8px;
+    height: 1500px;
     display: flex;
     flex-direction: column;
     align-content: space-between;
@@ -262,7 +278,7 @@ nav .right {
     box-shadow: 0 0 0.1em rgba(61, 37, 2, 0.5);
     transition-property: box-shadow;
     transition-duration: 0.3s;
-
+    border-radius: 5%;
 }
 .card:hover {
     box-shadow: 0 0 1.5em rgba(61, 37, 2, 0.5);
@@ -278,18 +294,21 @@ nav .right {
     background-color: #fff;
     transform-origin: 50% 100%;
     transition: .3s transform ease;
+    
 }
 
 .card .description {
     width: 100%;
     height: 148px;
-    background-color: #fff;
+    
+    background:linear-gradient(45deg,rgb(121, 2, 85),indianred, rgb(28, 16, 63));
     backface-visibility: hidden;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     position: relative;
+    
 }
 
 
@@ -315,6 +334,7 @@ p {
     transition: .3s transform ease;
     top: -1px;
     width: 16%;
+    
 }
 
 .personal {
@@ -393,7 +413,7 @@ p {
 
 
 footer {
-    background-color: #ad9ab9;
+    background-color: #534c57;
     width: 100%;
     padding: 20px 0;
     display: flex;
